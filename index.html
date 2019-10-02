@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Andrew-Res-Nav</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="../css/styles.css">
+ <script>
+   $(function() {
+   $(".toggle").on("click", function() {
+       if ($(".nav__item").hasClass("active")) {
+           $(".nav__item").removeClass("active");
+       } else {
+           $(".nav__item").addClass("active");
+       }
+   });
+});
+   </script>
+</head>
+
+<body>
+ <section class="section">
+ <header>
+  <div class="container">
+   <nav>
+    <ul class="menu">
+    <li class="logo"><a href="#" class="nav__link">FollowAndrew</a></li>
+    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+    <li class="nav__item"><a href="" class="nav__link">About</a></li>
+    <li class="nav__item"><a href="" class="nav__link">Services</a></li>
+    <li class="nav__item button"><a href="" class="nav__link">Login</a></li>
+    <li class="nav__item button secondary"><a href="" class="nav__link">Sign Up</a></li>
+    <li class="toggle"><a href="" class="nav__link"><span class="bars"></span></a></li>
+   </nav>
+  </ul>
+
+  </div>
+ </header>
+</section>
+ <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+ <script type="text/javascript" src="../js/script.js"></script>
+ <script src="" async defer></script>
+</body>
+
+</html>
